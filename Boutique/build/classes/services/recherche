@@ -1,0 +1,22 @@
+principe du pattern singleton
+- Empêcher l'instanciation d'une classe pour que on ait seulement une seule instance de cette classe dans le JVM
+- Fournir un seul point d'accès global à l'instance de la classe.
+
+Implementation du pattern singleton
+- creation d'un attribut privé de classe qui contient l'instance de cette classe.
+- creation d'un constructeur privé pour empêcher l'instanciation de la classe
+- creation d'une méthode de classe pour pour l'accès global à l'instance de la classe.
+
+type d'implementation du pattern singleton
+- Eager Iniitialization
+- static block initialization
+- lazy initialization
+
+Souci
+ces implémentations marche lorsque il y'a qu'un seul processus qui a accès à l'instance de la classe mais, 
+si il y'a plusieurs processus qui veulent accèder à l'instance dans le bloc if au même moment alors le pattern singleton
+sera violer on aura plusieurs instances de la classe au lieu d'une seule.
+
+Solution pour les multiples processus
+- safe thread method
+

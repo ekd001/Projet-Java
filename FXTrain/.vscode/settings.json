@@ -1,0 +1,15 @@
+{
+    "java.project.referencedLibraries": [
+        "c:\\Users\\EKLOU Dodji\\Downloads\\openjfx-21.0.3_windows-x64_bin-sdk\\javafx-sdk\\lib\\javafx-swt.jar",
+        "c:\\Users\\EKLOU Dodji\\Downloads\\openjfx-21.0.3_windows-x64_bin-sdk\\javafx-sdk\\lib\\javafx.media.jar",
+        "c:\\Users\\EKLOU Dodji\\Downloads\\openjfx-21.0.3_windows-x64_bin-sdk\\javafx-sdk\\lib\\javafx.controls.jar",
+        "c:\\Users\\EKLOU Dodji\\Downloads\\openjfx-21.0.3_windows-x64_bin-sdk\\javafx-sdk\\lib\\javafx.graphics.jar",
+        "c:\\Users\\EKLOU Dodji\\Downloads\\openjfx-21.0.3_windows-x64_bin-sdk\\javafx-sdk\\lib\\javafx.base.jar",
+        "c:\\Users\\EKLOU Dodji\\Downloads\\openjfx-21.0.3_windows-x64_bin-sdk\\javafx-sdk\\lib\\javafx.swing.jar",
+        "c:\\Users\\EKLOU Dodji\\Downloads\\openjfx-21.0.3_windows-x64_bin-sdk\\javafx-sdk\\lib\\javafx.web.jar",
+        "c:\\Users\\EKLOU Dodji\\Downloads\\openjfx-21.0.3_windows-x64_bin-sdk\\javafx-sdk\\lib\\javafx.fxml.jar"
+    ],
+    "java.project.sourcePaths": [
+        "FxTrain\\src"
+    ]
+}

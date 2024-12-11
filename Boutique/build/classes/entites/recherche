@@ -1,0 +1,34 @@
+3. Exemple d’utilisation d’un code de hachage
+Imaginons un annuaire téléphonique stocké dans une table de hachage. 
+Lorsqu'on ajoute un contact, on utilise une fonction de hachage sur son nom pour 
+générer une clé de hachage (un entier). 
+Ensuite, lorsqu’on recherche ce contact, 
+on génère de nouveau son code de hachage à partir de son nom, 
+ce qui permet de le retrouver très rapidement dans l’annuaire.
+
+Un code de hachage (ou "hash code") 
+est un nombre entier généré par une fonction de hachage à partir des données d'un objet.
+
+Une fonction de hachage prend en entrée des données 
+(comme les attributs d'un objet) et retourne un entier appelé code de hachage
+
+pourquoi utiliser un petit nombre pour le calcul du code de hachage?
+Améliorer la distribution : L’utilisation d’une petite valeur initiale (surtout un nombre premier comme 5 ou 7)
+ peut aider à obtenir une meilleure dispersion des codes de hachage 
+lorsque d’autres valeurs viennent s’ajouter.
+ Un nombre premier en tant que valeur de départ réduit 
+les risques de collision en empêchant que certaines valeurs initiales ou transformations provoquent 
+des motifs répétitifs dans le calcul du hachage.
+
+Permettre des calculs simples et rapides
+
+this.id >>> 32 : Ce décalage à droite de 32 bits extrait 
+les 32 bits de poids fort de id (c'est-à-dire, la "moitié supérieure").
+
+la méthode de hachage multiplicative et les techniques de mélange de bits qui sont couramment 
+utilisées pour obtenir des valeurs de hachage de haute qualité.
+
+Ce code Java est la méthode equals, qui permet de vérifier si deux objets sont considérés 
+comme égaux en comparant leurs contenus. 
+Ici, la méthode est utilisée pour la classe Personne, 
+et l’égalité entre deux objets Personne est déterminée en comparant leur attribut id.
